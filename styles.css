@@ -1,3 +1,96 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    color: hsl(30, 10%, 34%); /* Wenge Brown */
+    font-size: 1em;
+    font-family: "Outfit";
+}
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin: 20px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%); /* Nutmeg */
+    font-size: 2em;
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin: 20px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%); /* Dark Raspberry */
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    margin: 20px;
+}
+
+#header-image {
+    width: 100%;
+    height: auto;
+}
+
+#preparation-box {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    margin: 20px;
+}
+
+#preparation-box ul {
+    line-height: 1.75em;
+    padding: 20px;
+}
+
+#instructions,
+#ingredients {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%); /* Add line between rows */
+}
+
+#instructions strong {
+    font-weight: 600;
+}
+
+#nutritional-values {
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+  
+#nutritional-values td {
+    border-bottom: 1px solid hsl(30, 18%, 87%); /* Add line between rows */
+    padding: 10px;
+}
+
+#nutritional-values th:last-child,
+#nutritional-values td:last-child {
+    border-right: none; /* Remove line between columns */
+}
+
+.column2 {
+    color: hsl(14, 45%, 36%); /* Nutmeg */
+    font-weight: 600;
+}
+  
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
