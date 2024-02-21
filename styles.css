@@ -8,100 +8,14 @@
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-* {
-    margin: 0;
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
 }
-
-body {
-    color: hsl(30, 10%, 34%); /* Wenge Brown */
-    font-size: 1em;
-    font-family: "Outfit";
-}
-
-h1 {
-    color: black;
-    font-size: 2.5em;
-    font-family: "Young Serif";
-    font-weight: 400;
-    margin: 20px;
-}
-
-h2 {
-    color: hsl(14, 45%, 36%); /* Nutmeg */
-    font-size: 2em;
-    font-family: "Young Serif";
-    font-weight: 400;
-    margin: 20px;
-}
-
-h3 {
-    color: hsl(332, 51%, 32%); /* Dark Raspberry */
-    font-size: 1.5em;
-    font-weight: 600;
-}
-
-p {
-    margin: 20px;
-}
-
-#header-image {
-    width: 100%;
-    height: auto;
-}
-
-#preparation-box {
-    background-color: hsl(330, 100%, 98%);
-    padding: 20px;
-    margin: 20px;
-}
-
-#preparation-box ul {
-    line-height: 1.75em;
-    padding: 20px;
-}
-
-#instructions,
-#ingredients {
-    padding-bottom: 20px;
-    border-bottom: 1px solid hsl(30, 18%, 87%); /* Add line between rows */
-}
-
-#instructions strong {
-    font-weight: 600;
-}
-
-#nutritional-values {
-    width: 100%;
-    margin: 20px;
-    border-collapse: collapse;
-}
-  
-#nutritional-values td {
-    border-bottom: 1px solid hsl(30, 18%, 87%); /* Add line between rows */
-    padding: 10px;
-}
-
-#nutritional-values th:last-child,
-#nutritional-values td:last-child {
-    border-right: none; /* Remove line between columns */
-}
-
-.column2 {
-    color: hsl(14, 45%, 36%); /* Nutmeg */
-    font-weight: 600;
-}
-  
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
