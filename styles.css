@@ -19,3 +19,106 @@
     --Dark-Raspberry: hsl(332, 51%, 32%);
 
 }
+
+body {
+    background-color: var(--Eggshell);
+    color: var(--Dark-Charcoal);
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-size: 2.5em;
+    font-weight: normal;
+    color: black;
+}
+
+h2 {
+    font-family: "Young Serif";
+    font-weight: normal;
+    font-size: 1.75em;
+    color: var(--Nutmeg);
+}
+
+h3 {
+    color: var(--Dark-Raspberry);
+}
+
+#background {
+    display: grid;
+    place-content: center;
+    border-radius: 15px;
+    background-color: var(--White);
+    width: 45%;
+    padding: 50px;
+    margin: 100px auto;
+}
+
+#header-image {
+    border-radius: 15px;
+    width: 100%;
+}
+
+#preparation-box {
+    background-color: var(--Rose-White);
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
+.list {
+    margin-left: -15px;
+}
+
+.list li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.list strong {
+    font-weight: 575;
+}
+
+.raspberry li::marker {
+    color: var(--Dark-Raspberry);
+}
+
+.nutmeg li::marker {
+    color: var(--Nutmeg);
+    font-weight: 575;
+}
+
+.bottom-line {
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+#nutritional-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+#nutritional-table td {
+    border-bottom: 1px solid var(--Light-Grey); /* Add line between rows */
+    padding: 8px;
+}
+
+#nutritional-table tr:last-child td {
+    border-bottom: none; /* Remove line below last row */
+}
+
+#nutritional-table td:last-child {
+    border-right: none; /* Remove line between columns */
+}
+
+#nutritional-table .values {
+    color: var(--Nutmeg);
+    font-weight: 575;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+  
