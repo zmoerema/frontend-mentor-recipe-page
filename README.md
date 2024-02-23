@@ -25,8 +25,8 @@ The challenge is to build out this recipe page and get it looking as close to th
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-- Live Site URL: [frontend-mentor-recipe-page/](https://zmoerema.github.io/frontend-mentor-recipe-page/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-Yr7ilquPJk)
+- Live Site URL: [GitHub Pages](https://zmoerema.github.io/frontend-mentor-recipe-page/)
 
 ## My process
 
