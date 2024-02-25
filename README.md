@@ -20,7 +20,12 @@ The challenge is to build out this recipe page and get it looking as close to th
 
 ### Screenshot
 
+#### Desktop view
+
 ![desktop-view](./screenshots/desktop-view.png)
+
+#### Mobile view
+
 ![mobile-view](./screenshots/mobile-view.png)
 
 ### Links
